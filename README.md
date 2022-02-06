@@ -1,9 +1,12 @@
 # Teleforward
 
-This is a simple Heroku app that acts as a proxy to your web app.
+Heroku app for forwarding HTTP requests to another server.
 
-It was originally created because a service required a secure webhook endpoint, which heroku app has by default.
+## Built With
 
-To deploy the app, simply click the button below.
+- [Node.js](https://nodejs.org/en/)
+- [HTTP Forward](https://www.npmjs.com/package/http-forward)
+
+## Deploying
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kiloev/teleforward)
